@@ -1,5 +1,7 @@
 package org.example.programmingBasisc
 
+import java.util.*
+
 fun main() {
     //Yaklaşık olarak her karakter 2 byte yer kaplar.
     //primitive tiplerdir stack(gösterdiği pointer) ve heapde(veri) saklanıt
@@ -66,5 +68,14 @@ Eğer performans açısından primitive benzeri bir kullanım istersen, CharArra
     val ad ="Eray"
     val kisiBilgisi = String.format("Adım : %s , Yaşım %d , boyum : %.2f",ad,yas,boy)
     println(kisiBilgisi)
+
+    val sayi = 1234567.89
+    // 1,234,567.89
+    val usFormat = String.format(Locale.US, "US formatında: %,.2f", sayi)
+    println(usFormat) // "US formatında: 1,234,567.89" yazdırır.
+    //Türkçe için Locale nesnesi, "tr" ISO 639 dil kodu ve "TR" ISO 3166 Ülke kodu ile oluşturulabilir
+    val localeTR = Locale("tr", "TR") // Türkçe için Locale nesnesi oluşturuluyor
+    val trFormat = String.format(localeTR, "TR formatında: %,.2f", sayi)
+    println(trFormat)
 
 }
