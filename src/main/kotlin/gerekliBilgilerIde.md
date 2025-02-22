@@ -5,3 +5,4 @@
 - Ctrl + alt + shit + l kodaki girinti çıkıntıları düzenler
 - Shfit +Shift kontrol panelini açar  
 - Ctrl + k yorum satırı yapma
+- f2 tüm değişkenlerin adını değiştirir
