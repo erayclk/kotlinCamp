@@ -1,11 +1,23 @@
 package org.example.programmingBasisc
 
 fun main() {
+    //Array aynı türden sırali sabir boyutlu bir koleksiyondur
     val sNubmer = arrayOf(10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
     val sNames = arrayOf("Eray", "Ahmet", "Mehmet")
+    sNames[0] = "erasdad"
+
+    for (index in sNames.indices) {
+        println(sNames[index])
+    }
 
     val mixedArray = arrayOf<Any>(13, "eray", 'V', true)
     val intArray = arrayOf<Int>(13, 10, 9, 8)
+    val squares = Array(5){index ->index * index}
+
+    //size : Arrrayin eleman sayısı verir
+    //indices : Arrayin index aralığını verir sNumber.indices-== 0..2
+
+    println(sNames.indices)
 
     val arrayOfNulls = arrayOfNulls<String>(4)
     println(arrayOfNulls.joinToString())
