@@ -5,6 +5,7 @@ data class Person1(var name: String, var age: Int = 0, var city: String = "")
 fun main() {
     //return ü verdiğin parametredir son satırı değil
     //işlemler değişkeni etkiler
+    //nesne oluşturmada genellikle tercih edilir data classlar haric
     val adam = Person1("Adam").apply {
         age = 32
         city = "London"

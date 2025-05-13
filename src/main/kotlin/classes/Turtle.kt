@@ -14,6 +14,10 @@ public class Turtle (val name : String="Unnamet",mFeetCount :Int=0,age:Int=10) {
 
     internal modül içinnde erişime izin verir modul dışında erişilemez yapar
 
+    init bloğu constructarın bodysi olarak çalışır
+
+    encapsiluatin
+
 
      */
 

@@ -3,6 +3,10 @@ package org.example.classes
 //abstract anahtar kelimesiyle işaretlenir. Direkt olarak örneklenemez (nesne oluşturulamaz)
 //Şablon oluşturmak için kullanılır
 // ortak kod paylaşımı için kullanılır.
+//abstrack classların abstract fonksiyonları override etmek zorunludur
+//abstract class miras alan abstract classın abstract fonksiyonunu override etmek zorunda değildir
+//abstract classların abstract olmayan classları miras olursa override etmek zorundadır
+
 abstract class Human(val surName:String) {
     abstract val name:String
     val gender:String ="erkek" //state tutuğunu gösterir

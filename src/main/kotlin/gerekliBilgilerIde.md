@@ -6,3 +6,7 @@
 - Shfit +Shift kontrol panelini açar  
 - Ctrl + k yorum satırı yapma
 - f2 tüm değişkenlerin adını değiştirir
+
+
+* Bir teknik bilgiyi öğrenirken şu üç kelime çok önemlidir.
+* Pitfalls(tuzaklar), bottlenecks, codesmell
